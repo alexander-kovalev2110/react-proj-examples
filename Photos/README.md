@@ -1,6 +1,6 @@
 # Photos
 
-![alt text](image.png){ width=50% }
+![alt text](image.png)
 
 
 ## Available Scripts

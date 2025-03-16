@@ -1,8 +1,8 @@
 # Users
 
-![alt text](image.png){ width=50%}
+![alt text](image.png)
 
-![alt text](image-1.png){ width=50%}
+![alt text](image-1.png)
 
 
 ## Available Scripts
