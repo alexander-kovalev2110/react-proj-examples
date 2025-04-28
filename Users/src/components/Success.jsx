@@ -7,7 +7,7 @@ export const Success = ({ count }) => {
       <h3>Successfully!</h3>
       <p>An invitation has been sent to all {count} users</p>
       <button onClick={() => window.location.reload()} className="send-invite-btn">
-        Назад
+        Back
       </button>
     </div>
   );
