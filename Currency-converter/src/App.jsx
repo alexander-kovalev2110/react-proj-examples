@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Block } from './Block';
 import './index.scss';
 
-function App() {
+const App = () => {
   const [fromCurrency, setFromCurrency] = useState('UAH');
   const [toCurrency, setToCurrency] = useState('USD');
   const [fromPrice, setFromPrice] = useState(0);
