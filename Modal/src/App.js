@@ -13,12 +13,12 @@ const Modal = ({open, setOpen}) => (
   </div>
 );
 
-function App() {
+const App = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <div className="App">
-      <button className="open-modal-btn" onClick={() => setOpen(true)}>✨ Открыть окно</button>
+      <button className="open-modal-btn" onClick={() => setOpen(true)}>✨ Open window</button>
       <Modal open={open} setOpen={setOpen}/>
     </div>
   );
