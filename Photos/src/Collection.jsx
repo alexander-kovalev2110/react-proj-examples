@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 
-function Collection({ name, images, shiftPhotos }) {
+const Collection = ({ name, images, shiftPhotos }) => {
   return (
     <div className="collection" onClick={() => shiftPhotos(images, 0)}>
       <img className="collection__big" src={images[0]} alt="Item" />
