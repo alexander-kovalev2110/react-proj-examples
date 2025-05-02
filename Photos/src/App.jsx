@@ -75,7 +75,7 @@ const App = () => {
 
       <ul className="pagination">
         {pages[categoryId].map((p) => (
-          <li className={(page === p) ? "active" : ""} onClick={() => setPage(p)} key={p}>{p}</li>
+          <li className={(page === p) ? "active" : ""} onClick={() => {setPage(p); setSearchValue('')}} key={p}>{p}</li>
         ))}
       </ul>
     </div>
